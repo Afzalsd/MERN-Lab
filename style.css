@@ -7,16 +7,16 @@ body, h1, h2, p, ul, li {
 body {
     font-family: 'Arial', sans-serif;
     line-height: 1.6;
-    background-color: #f0f4f8; /* Light background for better contrast */
+    background-color: #f0f4f8; 
 }
 
 .first {
     display: flex;
     justify-content: space-between;
     align-items: center;
-    background-color: #ffffff; /* White background for header */
+    background-color: #ffffff;
     padding: 20px;
-    border-bottom: 3px solid #007bff; /* Blue border */
+    border-bottom: 3px solid #007bff;
     box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1); /* Subtle shadow */
 }
 
@@ -36,11 +36,10 @@ body {
     color: #333;
 }
 
-/* Navigation Bar */
 .second ul {
     display: flex;
     justify-content: center;
-    background-color: #007bff; /* Blue background */
+    background-color: #007bff;
     list-style: none;
 }
 
@@ -54,11 +53,11 @@ body {
     font-size: 16px;
     padding: 10px 15px;
     display: block;
-    transition: background-color 0.3s; /* Smooth transition */
+    transition: background-color 0.3s;
 }
 
 .second ul li a:hover {
-    background-color: #0056b3; /* Darker blue on hover */
+    background-color: #0056b3;
     border-radius: 5px;
 }
 
