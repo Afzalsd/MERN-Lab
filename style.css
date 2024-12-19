@@ -214,45 +214,54 @@ footer {
 
 .key-highlights, .student-initiatives {
     background: #ffffff;
-    border-radius: 8px;
-    padding: 20px;
-    margin-bottom: 20px;
-    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+    border-radius: 10px; 
+    padding: 30px;
+    margin-bottom: 30px; 
+    box-shadow: 0 4px 15px rgba(0, 0, 0, 0.1);
+    transition: transform 0.3s, box-shadow 0.3s; 
+}
+
+.key-highlights:hover, .student-initiatives:hover {
+    transform: translateY(-5px); 
+    box-shadow: 0 6px 20px rgba(0, 0, 0, 0.2);
 }
 
 .key-highlights h3, .student-initiatives h3 {
-    color: #007bff; /* Blue color for subheadings */
-    font-size: 22px;
-    margin-bottom: 15px;
-    border-left: 5px solid #007bff; /* Blue border */
-    padding-left: 10px;
+    color: #0056b3; /* Darker blue for subheadings */
+    font-size: 24px; /* Slightly larger font size */
+    margin-bottom: 20px; /* Increased margin for better spacing */
+    border-left: 5px solid #0056b3; /* Darker blue border */
+    padding-left: 15px; /* Increased padding for the border */
+    font-weight: 600; /* Bold font weight for emphasis */
 }
 
 .key-highlights ul, .student-initiatives ul {
-    list-style-type: none;
-    margin: 0;
-    padding: 0;
+    list-style-type: none; /* Remove default list styling */
+    margin: 0; /* Reset margin */
+    padding: 0; /* Reset padding */
 }
 
 .key-highlights ul li, .student-initiatives ul li {
-    font-size: 16px;
-    color: #555;
-    margin-bottom: 12px;
-    position: relative;
-    padding-left: 25px;
+    font-size: 18px; /* Increased font size for better readability */
+    color: #333; /* Darker text color for contrast */
+    margin-bottom: 15px; /* Increased margin for better spacing */
+    position: relative; /* Positioning for custom bullet */
+    padding-left: 30px; /* Increased padding for custom bullet */
 }
 
 .key-highlights ul li:before, .student-initiatives ul li:before {
-    content: "✔";
-    color: #007bff; /* Blue checkmark */
-    font-weight: bold;
-    position: absolute;
-    left: 0;
-    top: 0;
+     
+    color: #0056b3; /* Darker blue for checkmark */
+    font-weight: bold; /* Bold checkmark */
+    position: absolute; /* Absolute positioning for custom bullet */
+    left: 0; /* Align to the left */
+    top: 0; /* Align to the top */
+    font-size: 20px; /* Slightly larger checkmark */
 }
 
 .student-initiatives {
-    background: #eaf5ff; /* Light blue background */
+    background: #f0f8ff; /* Light blue background for differentiation */
+    border: 1px solid #cce5ff; /* Light blue border */
 }
 
 @media (max-width: 768px) {
